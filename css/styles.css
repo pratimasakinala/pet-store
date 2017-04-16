@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+/* === header ===*/
+.logo {
+	  width: 90px;
+}
+
+header h1 {
+	color: #FF827B;
+	font-family: 'Satisfy';
+	margin-top: 20px;
+}
+
+nav li {
+	font-size: 20px;
+}
+
+li a {
+	color: #61AEE6;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+a:hover {
+	color: #FF827B;
+	text-decoration: none;
+}
+
+nav {
+	top: 20px;
+}
+
+ /*end header*/
+
+/*hero content*/
+
+.jumbotron {
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+}
+
+.jumbotron h2 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: white;
+}
+
+/*hero end*/
+
+/*content*/
+.featured {
+  margin-bottom: 60px;
+}
+
+.product {
+  background-color: #edf1f4;
+  border-radius: 5%;
+  border: 5px solid rgb(252, 252, 252);
+}
+
+.caption {
+  background-color: #edf1f4;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+  border: none;
+}
+
+.thumbnail img {
+  margin-top: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: #231f20;
+    padding-top: 20px;
+}
+
+footer a {
+	color: #bfc0c1;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact-info {
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.social {
+	padding-top: 15px;
+}
+
+footer .fine-print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #505050;
+}
+/*end footer*/
+
+/*media queries*/
+@media (max-width: 768px) {
+	.centered {
+		float: none;
+		margin: 0 auto;
+	}
+
+	nav {
+		padding-top: 0px;
+		top: 5px;
+	}
+
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
+
+	.social i {
+		margin: 20px 10px 0px;
+	}
+
+	aside {
+	margin-bottom: 60px;
+}
+
+}
